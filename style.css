@@ -75,6 +75,7 @@ body{
 .main-section p {
     text-align: center;
     margin-top: 20px;
+    color: grey;
 }
 
 .buttons {
@@ -197,6 +198,9 @@ body{
     text-align: center;
     color: #3992E9;
 }
+.job-date{
+    color: grey;
+}
 
 .jobs {
     margin-top: 20px;
@@ -210,7 +214,12 @@ body{
 .job-header {
     display: flex;
     margin-bottom: 10px;
+    
 
+}
+
+.job-desc{
+    color: grey;
 }
 
 .job-header span {
@@ -273,10 +282,11 @@ body{
 
     .job-header{
         align-items: flex-start;
+        
     }
 
     .job-date {
-        text-align: left;
+        text-align: right;
         width: 100%;
         margin-left: 55px; /* Alinha abaixo do título */
         margin-top: -5px;
