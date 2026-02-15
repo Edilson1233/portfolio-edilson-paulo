@@ -266,8 +266,9 @@ body{
         font-size: 2rem;
     }
 
-    .html-article, .css-article{
-        width: 100%;
+
+    .projects{
+        flex-wrap: wrap;
     }
 
     .job-header{
