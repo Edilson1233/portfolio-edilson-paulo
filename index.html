@@ -19,15 +19,15 @@
 
         <nav class="main-nav">
             <ul class="nav-links">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>Experience</li>
-                <li>Contact</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="main-content">
+    <main id="home" class="main-content">
         <section class="main-section">
             <div class="container">
                 <div class="profile-picture">
@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section class="projects-sections">
+        <section id="projects" class="projects-sections">
             <div class="container">
                 <div class="project-title">
                     <h2>PROJECTS</h2>
@@ -71,7 +71,7 @@
                 <div class="projects">
                     <article class="html-article">
                         <div class="card-image">
-                            <img src="assets/hero-html.png" alt="HTML Project">
+                            <img src="assets/html-img.jpg" alt="HTML Project">
                         </div>
                         <div class="card-footer">
                             <div class="card-content">
@@ -84,7 +84,7 @@
 
                     <article class="css-article">
                         <div class="card-image">
-                            <img src="assets/hero-css.png" alt="CSS Project">
+                            <img src="assets/css-img.webp" alt="CSS Project">
                         </div>
                         <div class="card-footer">
                             <div class="card-content">
@@ -97,7 +97,7 @@
                 </div>
         </section>
 
-        <section class="experience">
+        <section id="experience" class="experience">
             <div class="container">
                 <h2>EXPERIENCE</h2>
 
@@ -109,9 +109,9 @@
                             <div class="job-title">
                                 <h3>Back-end Developer Trainee at Rocketseat</h3>
                             </div>
-                            <span>Feb 2025</span>
+                            <span class="job-date">Feb 2025</span>
                         </div>
-                        <p>
+                        <p class="job-desc">
                             Developed a back-end application in Java with Maven using Spring Boot and API Rest.
                             Structured the project from data modeling to functionality implementation, 
                             integrating with MySQL via JPA and JDBC.
@@ -124,9 +124,9 @@
                             <div class="job-title">
                                 <h3>Java Serverless Developer at Rocketseat</h3>
                             </div>
-                            <span>Nov 2024</span>
+                            <span class="job-date">Nov 2024</span>
                         </div>
-                        <p>
+                        <p class="job-desc">
                             Developed a serverless URL redirection application using Java. 
                             Integrated with AWS S3 for bucket management, API Gateway for endpoint exposure, 
                             and AWS Lambda for serverless processing.
@@ -139,9 +139,9 @@
                             <div class="job-title">
                                 <h3>Developer at Project Khodar</h3>
                             </div>
-                            <span>Sep 2024 - Oct 2024</span>
+                            <span class="job-date">Sep 2024 - Oct 2024</span>
                         </div>
-                        <p>
+                        <p class="job-desc">
                             Participated in the development of a natural disaster alert system. 
                             Created RESTful APIs using Java and MySQL, managed notifications, 
                             and handled technical documentation.
@@ -152,7 +152,7 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div class="container footer-content">
             <h2>Contact</h2>
             <p>
