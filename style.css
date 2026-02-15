@@ -268,7 +268,7 @@ body{
 
 
     .projects{
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     }
 
     .job-header{
