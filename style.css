@@ -266,6 +266,10 @@ body{
         font-size: 2rem;
     }
 
+    .html-article, .css-article{
+        width: 100%;
+    }
+
     .job-header{
         align-items: flex-start;
     }
