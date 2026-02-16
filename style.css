@@ -296,6 +296,44 @@ body{
     .job-desc{
         margin-left: 0;
     }
-
-
+    
 }
+
+   /* Por padrão, escondemos o Português e mostramos Inglês */
+        .lang-pt {
+            display: none !important;
+        }
+
+        /* Botão de Idioma */
+        #btn-language {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+
+        #btn-language:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+    /* --- MODO PORTUGUÊS ATIVADO --- */
+        /* Quando o body tem a classe 'portuguese-mode': */
+        body.portuguese-mode .lang-en {
+            display: none !important; /* Esconde Inglês */
+        }
+        body.portuguese-mode .lang-pt {
+            display: inline-block !important; /* Mostra Português (ou block dependendo do item) */
+        }
+        
+        /* Ajuste para blocos grandes de texto */
+        body.portuguese-mode p .lang-pt, 
+        body.portuguese-mode h1 .lang-pt,
+        body.portuguese-mode h2 .lang-pt,
+        body.portuguese-mode h3 .lang-pt {
+            display: block !important;
+        }
